@@ -8,15 +8,14 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-require('./styles.css');
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var MyComponent = function MyComponent() {
+var Modal = function Modal(props) {
     return _react2.default.createElement(
-        'h1',
+        'div',
         null,
-        'Hello from My Component'
+        'My Cool Modal'
     );
 };
-exports.default = MyComponent;
+
+exports.default = Modal;
